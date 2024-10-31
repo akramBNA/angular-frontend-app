@@ -1,5 +1,6 @@
 .container {
   padding: 20px;
+  position: relative;
 }
 
 .header {
@@ -10,7 +11,18 @@
 }
 
 .add-button {
-  margin-right: 20px;
+  margin-right: 5px;
+  background-color: #4ca3e6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .search-field {
@@ -56,7 +68,6 @@ td.mat-cell {
   border-radius: 4px;
 }
 
-/* Responsive Styles */
 @media (max-width: 600px) {
   th.mat-header-cell,
   td.mat-cell {
